@@ -11,7 +11,10 @@ namespace PractiseProject
         public static void Prime(int no)
         {
             int prime = 0;
-
+            if(no == 2)
+            {
+                Console.WriteLine($"{no} is a Prime Number");
+            }
             if (no == 0 || no == 1)
             {
                 Console.WriteLine($"{no} is not a Prime Number");
